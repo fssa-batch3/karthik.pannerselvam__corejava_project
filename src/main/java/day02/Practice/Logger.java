@@ -41,11 +41,10 @@ public class Logger {
 		
 	public static void main(String[]args) {
 		Logger.debug("Debug message");
-		Logger.debug(42);
-		Logger.error(8);
-		Logger.error(true);
+		Logger.debug(56);
+		Logger.error(9);
+		Logger.error(false);
 		Logger.info(false);
-		Logger.info("Info needed");
-		
+		Logger.info("Details needed");
 	}
 }
