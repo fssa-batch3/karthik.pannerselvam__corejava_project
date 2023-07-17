@@ -73,10 +73,7 @@ public class CarDemo {
 		car2.speedUp(10);
 		car2.changeGear(3);
 		car2.printStates();
-		
-		@SuppressWarnings("unused")
-		Bicycle bike1 = new Bicycle();
-		
+				
 		
 	}
 }
