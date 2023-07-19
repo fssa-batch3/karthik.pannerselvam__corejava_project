@@ -15,15 +15,20 @@ public class CityList {
 		List<String> newCity = new ArrayList<String>();
 		
 		for(String city: cityList) {
+			
 			boolean cityExists = false;
+			
 			for(String ExistingCity: newCity) {
+				
 				if(ExistingCity.equals(city)) {
 					cityExists = true;
 				}
 			}
+			
 			if(!cityExists) {
 				newCity.add(city);
 		}	
+			
 		
 		}
 		
