@@ -10,7 +10,7 @@ public class CommaList {
 		
 		String[] arr = list.split(",");
 		
-		HashMap <String, Integer> setlist = new HashMap <String, Integer>();
+		HashMap<String, Integer> setlist = new HashMap <String, Integer>();
 		
 		for(int i =0;i<arr.length;i++) {
 			if(setlist.containsKey(arr[i])) {
