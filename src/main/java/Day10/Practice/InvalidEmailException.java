@@ -1,4 +1,4 @@
-package day10.practice;
+package Day10.Practice;
 
 public class InvalidEmailException extends Exception {
     public InvalidEmailException(String message) {

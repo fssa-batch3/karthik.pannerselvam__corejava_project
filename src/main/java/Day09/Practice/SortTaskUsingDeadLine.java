@@ -22,6 +22,12 @@ class Task implements Comparable<Task>{
 		public String toString() {
 			return "Task [id=" + id + ", name=" + name + ", deadline=" + deadline + "]";
 		}
+
+		@Override
+		public int compareTo(Task o) {
+			// TODO Auto-generated method stub
+			return 0;
+		}
 	    
 	    
 }

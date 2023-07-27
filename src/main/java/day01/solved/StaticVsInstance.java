@@ -1,4 +1,4 @@
-v /**
+ /**
  * 
  */
 package day01.solved;

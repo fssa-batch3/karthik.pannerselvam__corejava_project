@@ -1,4 +1,4 @@
-package day10.practice;
+package Day10.Practice;
 
 public class UserAlreadyExistsException extends Exception {
     public UserAlreadyExistsException(String message) {

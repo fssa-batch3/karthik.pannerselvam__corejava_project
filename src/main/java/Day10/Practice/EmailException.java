@@ -1,4 +1,4 @@
-package day10.practice;
+package Day10.Practice;
 
 import java.util.regex.Pattern;
 
