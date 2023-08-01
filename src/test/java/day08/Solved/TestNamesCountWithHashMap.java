@@ -18,4 +18,9 @@ public class TestNamesCountWithHashMap {
 
 	}
 
+	private char[] count(String str) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
