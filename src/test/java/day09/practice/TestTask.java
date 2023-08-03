@@ -30,7 +30,7 @@ class TestTask {
 		list.add(task2);
 		list.add(task1);
 
-		Collections.sort(list, new SortATaskByDate());
+		Collections.sort(list, new Sort	ATaskByDate());
 
 		assertEquals(set.iterator().next(), list.get(0).getDeadline());
 	}
